@@ -3,8 +3,8 @@ const client = new Discord.Client();
 const generator = require('generate-password');
 
 client.on('ready', () => {
- client.user.setActivity("Violando personas :)");
- console.log("Tu bot ("+client.user.tag+") ahora se encuentra preparado!");
+ client.user.setActivity("Generating Nitro!");
+ console.log("Bot ("+client.user.tag+") Ready!");
  });
  
 client.on("message", async message => {
